@@ -7,22 +7,44 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+How Are Natural Resource Dependence and State Structure Related? Josh Wilcox, Gov 50 Fall 2020
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Pros
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Very interesting topic, creative plotting. Very much liked the use of tables to render the data more intelligible than a plot could in this context.Very creative and instructive ways of using maps.
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
+Cons
 
-You can also embed plots, for example:
+In general, this project is too unfocused. At first it looks at state efficiency (and fails to define this in quantitative terms while also not acknowledging that state efficiency depends not just on natural resource income that generates less need for rulers to be accountable to the population, but on state capacity, poverty, economic history, culture etc.) and then goes on to look at systems of government in a very broad, qualitative way. It fails to answer the question of whether resource-rent earning countries provide less state efficiency.  
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+Model 1: Unnecessary padding - it is quite intuitive, even incontrovertible, that countries with a high share of natural resources rent as % of GDP would rely less on tax revenue. This didn't need to be plotted. 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Histogram is a confusing way to plot democracy "probability" (an odd way to phrase it, would have been better to plot the level of democracy, as recognised by data on openness, rule of law, free and fair elections etc).
+
+"Multi-party system" is no way shape or form the right term to describe the likes of Russia and Venezuela. It suggests there are multiple parties in the political system that all have a chance of gaining power. This is fundamentally untrue in countries like Russia and Venezuela that are currently governed on autocratic grounds and only 
+
+It also doesn't seem right to explore the correlation between a country being a monarchy and a country relying on resource revenue. Granted, the search for tax revenue might lead to a democracy that results in the abolition of the monarchy, but whether or not a country is a monarchy depends on history, culture and religion. What Josh has done here is an odd pairing and I'm not sure how instructive it is.
+
+Data would benefit from taking into account other sources of revenue, not just natural resources, and how they impact state efficiency. 
+
+Last, slightly pedantic criticism - there are countless typos in this project!
+
+How do the 2016 referendum results correlate with other national statistics? Gov 1005 Spring 2020, Paddy Adams
+
+Pros
+
+Clear mission statement in the introduction, really outlining exactly what the dependent and independent variables are.
+
+The interactive nature of his plots, which allows for quick comparison with other variables, is a really compelling way to present data of this kind.
+
+Eloquent, concise explanations of his model.
+
+Cons
+
+Why doesn't he include Northern Ireland in his UK visualization... it's in the UK! The visualization is attractive and compelling and helps make his data analysis come to life, but the map itself is quite grainy and it would have been great to see an explanation of how the boundaries between places are delineated...cities? counties? what type of regions?
+
+He makes no strong conclusions. Just that the "stereotypes" - which he doesn't explain - have "some grounding". Do some have more than others? Why have you chosen these specific variables? There are many more you could choose, such as gender, political affiliation, views on Europe, views on immigration, income, race (white britons overwhelmingly voted for brexit). The project is limited.
+
+
+
